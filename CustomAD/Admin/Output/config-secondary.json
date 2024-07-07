@@ -1,0 +1,20 @@
+{
+    "DomainInfo":  {
+                       "SecondaryDC":  "SRVDCVP02",
+                       "DistinguishedName":  "DC=cyber,DC=com",
+                       "Name":  "cyber.com",
+                       "NetBIOS":  "CYBER"
+                   },
+    "Parameters":  {
+                       "OutputDirectory":  "$PSScriptRoot\\Output",
+                       "InputDirectory":  "$PSScriptRoot\\Input",
+                       "LogFilePath":  "$PSScriptRoot\\Logs\\Scriptfile-secondary.txt"
+                   },
+    "Network":  {
+                    "PrimaryDNS":  "172.16.10.16",
+                    "SecondaryDNS":  "127.0.0.1",
+                    "Gateway":  "172.16.10.254",
+                    "IPv4":  "172.16.10.17",
+                    "Mask":  24
+                }
+}
