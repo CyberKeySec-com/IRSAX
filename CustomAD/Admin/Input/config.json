@@ -1,0 +1,21 @@
+﻿{
+    "DomainInfo":  {
+                       "Old":  {
+                                   "MasterDC":  "SRVDCVP01",
+                                   "DistinguishedName":  "DC=annuaire,DC=irsax,DC=com",
+                                   "Name":  "annuaire.irsax.com",
+                                   "NetBIOS":  "ANNUAIRE"
+                               },
+                       "New":  {
+                                   "MasterDC":  "SRVDCVP01",
+                                   "DistinguishedName":  "DC=example,DC=net",
+                                   "Name":  "example.net",
+                                   "NetBIOS":  "EXAMPLE"
+                               }
+                   },
+    "Parameters":  {
+                       "OutputDirectory":  "$PSScriptRoot\\Output",
+                       "InputDirectory":  "$PSScriptRoot\\Input",
+                       "LogFilePath":  "$PSScriptRoot\\Logs\\Scriptfile.txt"
+                   }
+}
